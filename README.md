@@ -1,4 +1,4 @@
-🚦 Smart Traffic Management System (STMS)
+🚦 SMART TRAFFIC MANAGEMENT SYSTEM (STMS)
 
 A traffic simulation project showcasing adaptive signal control, emergency vehicle priority, and real-time analytics using SUMO, Flask, and React.js.
 
