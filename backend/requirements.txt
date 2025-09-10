@@ -1,0 +1,9 @@
+Flask
+flask-cors
+Flask-SQLAlchemy
+flask-jwt-extended
+python-dotenv
+traci
+dotenv
+reportlab
+openpyxl

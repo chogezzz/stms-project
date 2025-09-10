@@ -1,0 +1,76 @@
+<routes>
+    <!-- Vehicle types -->
+    <vType id="regular" vClass="passenger" length="5.0" maxSpeed="50" decel="4.5" sigma="0.5"
+        color="yellow" />
+    <vType id="emergency" vClass="emergency" length="7.0" maxSpeed="80" decel="5.0" sigma="0.4"
+        color="red" />
+
+
+    <!-- Routes for each direction -->
+    <route id="north_south" edges="north_in south_out" />
+    <route id="south_north" edges="south_in north_out" />
+    <route id="east_west" edges="east_in west_out" />
+    <route id="west_east" edges="west_in east_out" />
+
+    <!-- Vehicles: Balanced across directions -->
+    <vehicle id="car1" type="regular" route="north_south" depart="0" />
+    <vehicle id="car2" type="regular" route="south_north" depart="1" />
+    <vehicle id="car3" type="regular" route="east_west" depart="2" />
+    <vehicle id="car4" type="regular" route="west_east" depart="3" />
+    <vehicle id="ambulance1" type="emergency" route="north_south" depart="12" />
+    <vehicle id="car5" type="regular" route="east_west" depart="12" />
+    <vehicle id="car6" type="regular" route="west_east" depart="12" />
+    <vehicle id="car7" type="regular" route="south_north" depart="12" />
+    <vehicle id="car8" type="regular" route="north_south" depart="24" />
+    <vehicle id="ambulance2" type="emergency" route="east_west" depart="24" />
+    <vehicle id="car9" type="regular" route="east_west" depart="24" />
+    <vehicle id="car10" type="regular" route="west_east" depart="24" />
+    <vehicle id="car11" type="regular" route="north_south" depart="36" />
+    <vehicle id="car12" type="regular" route="south_north" depart="36" />
+    <vehicle id="ambulance3" type="emergency" route="west_east" depart="36" />
+    <vehicle id="car13" type="regular" route="east_west" depart="36" />
+    <vehicle id="car14" type="regular" route="west_east" depart="48" />
+    <vehicle id="car15" type="regular" route="south_north" depart="48" />
+    <vehicle id="ambulance4" type="emergency" route="south_north" depart="48" />
+    <vehicle id="car16" type="regular" route="north_south" depart="48" />
+    <vehicle id="car17" type="regular" route="east_west" depart="60" />
+    <vehicle id="car18" type="regular" route="west_east" depart="60" />
+    <vehicle id="ambulance5" type="emergency" route="north_south" depart="60" />
+    <vehicle id="car19" type="regular" route="south_north" depart="60" />
+    <vehicle id="car20" type="regular" route="east_west" depart="72" />
+    <vehicle id="car21" type="regular" route="north_south" depart="72" />
+    <vehicle id="car22" type="regular" route="west_east" depart="72" />
+    <vehicle id="ambulance6" type="emergency" route="east_west" depart="72" />
+    <vehicle id="car23" type="regular" route="north_south" depart="84" />
+    <vehicle id="car24" type="regular" route="west_east" depart="84" />
+    <vehicle id="car25" type="regular" route="south_north" depart="84" />
+    <vehicle id="ambulance7" type="emergency" route="west_east" depart="84" />
+    <vehicle id="car26" type="regular" route="east_west" depart="96" />
+    <vehicle id="car27" type="regular" route="north_south" depart="96" />
+    <vehicle id="car28" type="regular" route="west_east" depart="96" />
+    <vehicle id="ambulance8" type="emergency" route="north_south" depart="96" />
+    <vehicle id="car29" type="regular" route="south_north" depart="108" />
+    <vehicle id="car30" type="regular" route="east_west" depart="108" />
+    <vehicle id="car31" type="regular" route="north_south" depart="108" />
+    <vehicle id="car32" type="regular" route="west_east" depart="108" />
+    <vehicle id="ambulance9" type="emergency" route="south_north" depart="120" />
+    <vehicle id="car33" type="regular" route="north_south" depart="120" />
+    <vehicle id="car34" type="regular" route="west_east" depart="120" />
+    <vehicle id="car35" type="regular" route="east_west" depart="120" />
+    <vehicle id="ambulance10" type="emergency" route="east_west" depart="132" />
+    <vehicle id="car36" type="regular" route="north_south" depart="132" />
+    <vehicle id="car37" type="regular" route="south_north" depart="132" />
+    <vehicle id="car38" type="regular" route="west_east" depart="132" />
+    <vehicle id="ambulance11" type="emergency" route="north_south" depart="144" />
+    <vehicle id="car39" type="regular" route="east_west" depart="144" />
+    <vehicle id="car40" type="regular" route="south_north" depart="144" />
+    <!-- Extend simulation with more vehicles -->
+    <vehicle id="car41" type="regular" route="north_south" depart="156" />
+    <vehicle id="car42" type="regular" route="south_north" depart="156" />
+    <vehicle id="car43" type="regular" route="east_west" depart="156" />
+    <vehicle id="car44" type="regular" route="west_east" depart="156" />
+    <vehicle id="car45" type="regular" route="north_south" depart="168" />
+    <vehicle id="car46" type="regular" route="south_north" depart="168" />
+    <vehicle id="car47" type="regular" route="east_west" depart="168" />
+    <vehicle id="car48" type="regular" route="west_east" depart="168" />
+</routes>
