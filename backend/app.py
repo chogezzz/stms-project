@@ -60,6 +60,8 @@ def ensure_db_and_default_user():
         else:
             print("Default admin user already exists.")
 
+with app.app_context():
+    ensure_db_and_default_user()
 
 def token_required(f):
     """Decorator to require JWT token for protected routes."""
